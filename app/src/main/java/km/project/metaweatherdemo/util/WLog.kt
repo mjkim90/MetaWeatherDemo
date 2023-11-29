@@ -4,7 +4,7 @@ import android.util.Log
 import km.project.metaweatherdemo.BuildConfig
 
 object WLog {
-    private const val TAG = "WAUG_DEBUG_LOG"
+    private const val TAG = "W_DEBUG_LOG"
 
     private fun addTag(tag: String, msg: String): String {
         return "$tag : $msg"
